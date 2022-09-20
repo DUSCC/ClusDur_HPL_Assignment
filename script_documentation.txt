@@ -1,0 +1,10 @@
+The scripts directory should be scp'd onto the target node (which is assumed to have CentOS) in the
+home directory.
+
+- install_packages.sh should only be run once to install the libraries HPL needs and put them on the path.
+
+Another bash shell should be run with the updated environment.
+
+- build_hpl.sh will then build HPL but not run it.
+
+- run_optimal_HPL.sh will run HPL with our best HPL.dat, and give the raw output in a file best_result.txt.
