@@ -8,3 +8,5 @@ Another bash shell should be run with the updated environment.
 - build_hpl.sh will then build HPL but not run it.
 
 - run_optimal_HPL.sh will run HPL with our best HPL.dat, and give the raw output in a file best_result.txt.
+
+- TODO: get_graph_results.sh
