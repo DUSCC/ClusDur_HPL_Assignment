@@ -8,6 +8,6 @@ mkdir graph_res
 for NCORE in "${NCORES[@]}"; do
     cp ../../HPL_$NCORE.dat HPL.dat
     mpirun -np $NCORE ./xhpl > raw_$NCORE.txt
-    cp res_$NCORE.txt ../../graph_res
+    cp raw_$NCORE.txt ../../graph_res
 done
 
