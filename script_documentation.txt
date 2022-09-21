@@ -9,4 +9,6 @@ Another bash shell should be run with the updated environment.
 
 - run_optimal_HPL.sh will run HPL with our best HPL.dat, and give the raw output in a file best_result.txt.
 
-- TODO: get_graph_results.sh
+- TODO: get_graph_results.sh will run HPL on cores in the list [2, 4, 8, 16, 20] sequentially, and put the raw
+output for each run in a graph_res subdirectory. This can then be scped onto your local machine, and the data
+extracted and ploted with the python scripts extract.py and plot.py.
