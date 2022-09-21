@@ -6,7 +6,7 @@ def main():
     fnames = []
     ivals = [2, 4, 8, 16, 20]
     for i in ivals:
-        filename = f"graph_res/res_{i}.txt"
+        filename = f"graph_res/raw_{i}.txt"
         fnames.append(filename)
     vals = []
     for fname in fnames:
