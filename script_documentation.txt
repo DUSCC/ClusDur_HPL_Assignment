@@ -12,3 +12,6 @@ Another bash shell should be run with the updated environment.
 - get_graph_results.sh will run HPL on cores in the list [2, 4, 8, 16, 20] sequentially, and put the raw
 output for each run in a graph_res subdirectory. This can then be scped onto your local machine, and the data
 extracted and ploted with the python scripts extract.py and plot.py.
+
+Unfortunately we do not have a script to reproduce the bonus 2 node result on a clean cluster as we were only
+able to get the result close to the deadline due to issues with slurm on our cluster.
